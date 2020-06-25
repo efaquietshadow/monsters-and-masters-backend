@@ -2,7 +2,7 @@ import random
 from data import *
 
 race_list = data["races"]
-class_list = ['Bard', 'Mage', 'Merchant', 'Paladin', 'Ranger', 'Rogue', 'Warrior', 'Warlock']
+class_list = data["classes"]
 
 random_race = choose_race()
 race_name = random_race['name']
@@ -22,8 +22,12 @@ if first_letter in ['a', 'e', 'i', 'o', 'u']:
 else:
   output_string = output_string + 'a'
 
-your_class = random.choice(class_list)
+random_class = choose_class()
+class_name = random_class["name"]
 
 
-print (output_string, race_name, your_class)
+print (output_string, race_name, class_name)
+if is_cursed:
+  cursed_percent = random.randrange(1,100)
+  print("your curse is at", cursed_percent, "%")
 print ("base health:", race_health, "\nbase skills:", base_skills)

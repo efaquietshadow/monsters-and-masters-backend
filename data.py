@@ -213,6 +213,32 @@ data = {
                 "cha": -2
             }
         }
+    },
+    "classes": {
+        "bard": {
+            "name": "Bard"
+        },
+        "mage": {
+            "name": "Mage"
+        },
+        "merchant": {
+            "name": "Merchant"
+        },
+        "paladin": {
+            "name": "Paladin"
+        },
+        "ranger": {
+            "name": "Ranger"
+        },
+        "rogue": {
+            "name": "Rogue"
+        },
+        "warrior": {
+            "name": "Warrior"
+        },
+        "warlock": {
+            "name": "Warlock"
+        }
     }
 }
 
@@ -220,3 +246,6 @@ data = {
 
 def choose_race():
     return data["races"][random.choice(list(data["races"].keys()))]
+
+def choose_class():
+    return data["classes"][random.choice(list(data["classes"].keys()))]
