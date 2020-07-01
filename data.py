@@ -239,6 +239,30 @@ data = {
         "warlock": {
             "name": "Warlock"
         }
+    },
+    "detailed skills": {
+        "flight": "can fly for short distances",
+        "TONAME": "They can see simple hidden things automatically",
+        "bow bonus": "accuracy when using a bow increased by 1",
+        "magic skills": "",
+        "type immunity": "immune to type",
+        "safety huts": ""
+        "pick locks": "has the ability to easily pick locks",
+        "disarm traps": "has the ability to easily disarm traps",
+        "quick learner": "can find and learn recipes or new skills easier",
+        "flame tail": "can use their flame tail as a weapon or to start fires",
+        "burnt out": "if the flame on their tail goes out they can die",
+        "transform": "can change into their animal form and back (takes one action)",
+        "siren song": "has a chance to charm someone to your side",
+        "TONAME": "doesn't get lost in the wild",
+        "bat form": "can take an action to turn into a bat",
+        "bite": "causes damage and has a chance to turn into a (vampire or zombie)",
+        "drink blood": "can increase skills(50/50 chance) and can increase addiction",
+        "no pain": "hard to kill, has a 20'%' chance to reduce damage",
+        "eat brains": "can increase skills(50/50 chance)"
+    },
+    "spells": {
+
     }
 }
 
